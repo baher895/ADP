@@ -1,0 +1,29 @@
+{
+  "name": "adp",
+  "version": "1.0.0",
+  "description": "Ice Cream!!",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baher895/ADP.git"
+  },
+  "keywords": [
+    "yelp",
+    "ice-cream",
+    "node.js"
+  ],
+  "author": "Baher Hedayati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baher895/ADP/issues"
+  },
+  "homepage": "https://github.com/baher895/ADP#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "nodemon": "^1.19.2"
+  }
+}
