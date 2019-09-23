@@ -1,4 +1,4 @@
-const Yelp = require("./src/controller/yelp");
+const Yelp = require("./src/helpers/yelp");
 
 const NUMBER_OF_REVIEWS = 2;
 
