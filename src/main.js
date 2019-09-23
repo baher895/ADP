@@ -22,7 +22,7 @@ const findInYelp = async () => {
   const businesses = response.businesses;
 
   let reviewResponse;
-  let answer;
+
   for (let i = 0; i < numberOfBusiness; i++) {
     console.log(
       `\n>> Top ${numberOfBusiness} ${term.toUpperCase()} in ${location.toUpperCase()}. --> Number ${i +
@@ -43,7 +43,10 @@ const findInYelp = async () => {
       }
     }
 
-    if (!readlineSync.keyInYN("\nDo You Want to continue? ")) {
+    if (
+      i != numberOfBusiness - 1 &&
+      !readlineSync.keyInYN("\nDo You Want to continue? ")
+    ) {
       break;
     }
   }

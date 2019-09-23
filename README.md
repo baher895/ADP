@@ -41,8 +41,8 @@ In `app.js` file, in root folder you can `customize` the search setting by:
 
 - location: Can be any location, you can change it to any city you like.
 - term: Can be anything like: `icecream`, `coffee` etc.
-- numberOfBusiness: Define the businness you need to have! `Top 5`, put `5` here.
+- numberOfBusiness: Define the number of businness you need to see! for `Top 5`, put `5` here.
 - sortOf: Can be `rating`, `best_match`, `review_count` or `distance`. To get TOP of the list, I go with `rating`, you may try `best_match`
-- numberOfReviews: Define how many review you would like to see.
+- numberOfReviews: Define how many reviews you would like to see.
 
 # Thank You
